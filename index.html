@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/assets/money.png" type="image/x-icon" />
+    <title>Cash Counter</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cash Counter</h1>
+      <p id="description">
+        Enter your bill price and cash received from the customer and we will
+        tell you how to retuen a change using minimum number of notes/coins.
+      </p>
+    </header>
+    <main>
+      <div class="bill">
+        <label for="bill-amount">Enter the bill amount.</label>
+        <input
+        required
+          id="bill-amount"
+          type="number"
+          placeholder="Enter your bill amount here."
+        />
+      </div>
+      <div class="cash-input">
+        <label for="cash-received">Enter the cash received.</label>
+        <input id="cash-received" type="number" placeholder="Enter the received cash amount here." />
+        <div><button id="check-btn">Check</button></div>
+      </div>
+      <div class="messages hidden">
+
+      </div>
+      
+
+      <div class="table">
+        <table class="change">
+          <caption>Amount to be returned is:</caption>
+          <tr>
+            <th>No.Of Notes/Coins</th>
+            <td class="no-of-notes"> </td>
+            <td class="no-of-notes"> </td>
+            <td class="no-of-notes"> </td>
+            <td class="no-of-notes"> </td>
+            <td class="no-of-notes"> </td>
+            <td class="no-of-notes"> </td>
+            <td class="no-of-notes"> </td>
+          </tr>
+          <tr>
+            <th>
+              Notes
+            </th>
+            <td>2000</td>
+            <td>500</td>
+            <td>100</td>
+            <td>20</td>
+            <td>10</td>
+            <td>5</td>
+            <td>1</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+
+    <!-- Footer Starts Here -->
+    <footer class="footer">
+      <a href="#">Rishikesh Shinde</a><br />
+      <!-- Social Media Icons  -->
+      <span class="social-media">
+        <a
+          href="https://github.com/rdshinde"
+          target="_blank"
+          name="Rishikesh Shinde Github Profile"
+        >
+          <img
+            style="display: inline; margin: 0 5px"
+            src="/assets/github.svg"
+            alt="github-link"
+            height="50px"
+            width="50"
+          />
+        </a>
+        <a
+          name="Rishikesh Shinde Linkedin Profile"
+          href="https://www.linkedin.com/in/rishikesh-shinde-1211b5192"
+          target="_blank"
+        >
+          <img
+            style="display: inline; margin: 0 5px"
+            src="/assets/linkedin.svg"
+            alt="linkedin-link"
+            height="50px"
+            width="50"
+        /></a>
+      </span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
