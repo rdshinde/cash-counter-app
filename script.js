@@ -41,7 +41,7 @@ function inputValidator() {
     } else if (ammountToReturn > 0) {
       changeCalculator(ammountToReturn);
     } else {
-      message("Amount satisfied!");
+      message("Amount satisfied with bill!");
     }
   }
   else{
