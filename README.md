@@ -3,7 +3,7 @@ Dealing with change problem? This app will tell you, how you can return a change
 
 >### Tech Stack
 
-Built with HTML, CSS and Vanilla JS.
+Built with `HTML`, `CSS` and `Vanilla JS`.
 
 >### Live Project
 
