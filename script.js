@@ -19,7 +19,7 @@ function stateHandle() {
 }
 // event listener for button state handler
 billAmount.addEventListener("change", stateHandle);
-cashReceived.addEventListener("change", stateHandle);
+cashReceived.addEventListener("input", stateHandle);
 
 // function to calculate change
 function changeCalculator(ammountToReturn) {
